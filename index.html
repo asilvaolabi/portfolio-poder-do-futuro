@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- chamando o ícone na aba do navegador -->
+  <link rel="shortcut icon" href="./img/foto-perfil.png">
+  <!-- tag para inserirmos icones de uma lib externa no nosso HTML -->
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+</head>
+
+<body>
+  <!-- cabeçalho da nossa página, visível ao usuário -->
+  <header class="header-menu">
+    <nav>
+      <ul class="lista-menu">
+        <li><a href="#formacao">Formação</a> </li>
+        <li><a href="#portifolio">Portfólio</a></li>
+        <li><a href="#contato">Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- corpo da nossa página, visível ao usuário -->
+  <main>
+    <section class="principal">
+      <article class="subcontainer-principal container">
+        <div>
+          <img src="img/foto-perfil.png">
+        </div>
+        <div>
+          <h1 class="nome-completo" id="minhaNav">Amanda Silva</h1>
+          <h2 class="profissao">Desenvolvedora Front-end</h2>
+        </div>
+        <div class="texto-sobre">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. In hac habitasse platea dictumst. Nulla facilisi. Nulla id luctus tortor, id hendrerit
+            metus. Donec vulputate tellus sed sollicitudin porta. Aliquam turpis leo, pellentesque et velit a, sagittis scelerisque quam. Suspendisse imperdiet molestie leo. Proin sed imperdiet erat, UTF-8
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <!-- O ID é a forma de conectar nossa barra de navegação a esse trecho do código -->
+    <section id="formacao">
+      <article class="container article-lista">
+        <div>
+          <h3 class="topico-principal">Formação</h3>
+        </div>
+
+        <div class="lista-item">
+          <ul>
+            <li>
+              <p class="lista-titulo">Ciclo formativo</p>
+              <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab Olabi</a>
+              <p class="lista-descricao">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.
+              </p>
+            </li>
+
+            <li>
+              <p class="lista-titulo">Analise e desenvolvimento de sistemas</p>
+              <a href="https://www.ifsp.edu.br/" target="_blank" class="lista-local">ifsp</a>
+              <p class="lista-descricao">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+      </article>
+    </section>
+
+    <section class="principal" id="portifolio">
+      <article class="container article-lista">
+        <div>
+          <h3 class="topico-principal">Blog</h3>
+        </div>
+        <div class="lista-item">
+          <ul>
+            <li>
+              <p class="lista-titulo">Mulheres que fazem história</p>
+              <p class="subtitulo-lista">Revelo</p>
+              <a href="https://community.revelo.io/27-desenvolvedoras-brasileiras-para-se-inspirar-em-2022/" target="_blank" class="lista-local"> 27 desenvolvedoras brasileiras para se inspirar em 2022</a>
+              <p class="lista-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.</p>
+            </li>
+            <li>
+              <p class="lista-titulo">Quem Coda BR</p>
+              <p class="subtitulo-lista">Pretalab</p>
+              <a href="https://www.pretalab.com/report-quem-coda" target="_blank" class="lista-local">Quem coda br</a>
+              <p class="lista-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.</p>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <!-- rodapé da nossa página, visível ao usuário -->
+  <footer class="rodape" id="contato">
+    <div class="container">
+      <ul class="lista-rodape">
+        <li><i class="fas fa-envelope-square estilo-icone"></i>email@email.com</li>
+        <li href=""><i class="fab fa-linkedin estilo-icone"></i>amanda-silva</li>
+        <li href=""><i class="fab fa-github-square estilo-icone"></i>asilvaolabi</li>
+      </ul>
+      <a href="#minhaNav">Volte ao topo</a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
